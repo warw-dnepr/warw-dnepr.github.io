@@ -1,0 +1,40 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
+a{
+    text-decoration: none;
+}
+.list-unstyled{
+    list-style: none;
+}
+
+
+
+.title{
+    color: rgb(253, 186, 0);
+    text-align: center;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.about{
+color: rgb(243, 4, 4);
+text-align: center;
+}
+
+.contact{
+color: rgb(30, 7, 243);
+text-align: center;
+}
+.blog{
+    color: rgb(141, 104, 58);
+    text-align: center;
+}
+.home{
+    color: rgb(67, 49, 116);
+}
+.pic{
+    text-align: center;
+}
+
+
