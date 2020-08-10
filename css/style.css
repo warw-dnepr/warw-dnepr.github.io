@@ -1,13 +1,25 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    background-color: rgb(230, 159, 68); 
+    
+    
 }
 a{
-    text-decoration: none;
-}
-.list-unstyled{
-    list-style: none;
+    text-decoration: none;  /*убрать подчеркивание*/
 }
 
+/*navbar*/
+
+.navbar{
+    list-style: none;
+    background-color: darkslateblue;
+    list-style: none;
+    }
+
+img{
+    display: block;
+
+}
 
 
 .title{
@@ -18,23 +30,34 @@ a{
 }
   
 .about{
-color: rgb(243, 4, 4);
-text-align: center;
+color: rgb(243, 159, 4);
 }
 
 .contact{
-color: rgb(30, 7, 243);
-text-align: center;
+color: rgb(243, 159, 4);
 }
 .blog{
-    color: rgb(141, 104, 58);
-    text-align: center;
+    color: rgb(243, 159, 4);
 }
 .home{
-    color: rgb(67, 49, 116);
+    color: rgb(243, 159, 4);
 }
-.pic{
-    text-align: center;
+.like{
+    color: rgb(243, 159, 4);
+}
+.basket{
+    color: rgb(243, 159, 4)
+    ;
 }
 
 
+
+
+/*footer*/
+.bg-dark{
+    background-color: rgb(53, 51, 51);
+}
+.text-white{
+color: gainsboro;
+list-style: none;
+}
