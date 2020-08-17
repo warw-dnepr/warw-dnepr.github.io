@@ -1,0 +1,52 @@
+/* coomon styles*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.header{
+font-size: x-large;
+}
+.bg-white{
+    background-color: aquamarine;
+}
+.container{
+}
+.navbar{
+
+}
+.navbar-brand{
+
+}
+.text-dark{
+color: rgb(43, 39, 39);
+}
+.font-weight-bold{
+font-weight: 900;
+}
+.text-uppercase{
+text-transform: uppercase;         /*верхний регистр */
+}
+.navbar-nav{
+
+}
+.nav-item{
+
+}
+.nav-link{
+
+}
+
+
+                              /**/
+.row{
+display: flex;
+}
+.col-4{
+    max-width: calc(4*100%/12);
+}
+img{
+    max-width: 100%;
+}
