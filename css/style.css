@@ -6,6 +6,9 @@ body{
 ul{
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
 .header{
 font-size: x-large;
 }
@@ -22,6 +25,9 @@ font-size: x-large;
 }
 .text-dark{
 color: rgb(43, 39, 39);
+}
+.text-center{
+    text-align: center;
 }
 .font-weight-bold{
 font-weight: 900;
@@ -49,4 +55,13 @@ display: flex;
 }
 img{
     max-width: 100%;
+}
+
+          /*footer*/
+
+.footer-bg{
+    background-color: rgb(29, 28, 28);
+}
+.justify-content-around{
+    justify-content: space-around;
 }
