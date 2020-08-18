@@ -1,7 +1,15 @@
 /* coomon styles*/
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+/**,
+*::before,
+*::after{
+    box-sizing: border-box;
+}*/
 body{
     font-family: 'Roboto', sans-serif;
+display: flex;                                  /*разметка страницы*/
+flex-direction: column;
+flex-wrap: wrap;
 }
 ul{
     list-style: none;
@@ -12,19 +20,20 @@ a{
 .header{
 font-size: x-large;
 }
-.bg-white{
-    background-color: aquamarine;
-}
-.container{
-}
-.navbar{
 
+
+.navbar .container{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: flex-start;
+flex-flow: row nowrap;
 }
 .navbar-brand{
 
 }
 .text-dark{
-color: rgb(43, 39, 39);
+color: rgb(12, 4, 124);
 }
 .text-center{
     text-align: center;
@@ -39,10 +48,12 @@ text-transform: uppercase;         /*верхний регистр */
 
 }
 .nav-item{
+    
 
 }
 .nav-link{
-
+color: rgb(24, 119, 24);
+font-weight: 800;
 }
 
 
@@ -57,10 +68,17 @@ img{
     max-width: 100%;
 }
 
+          /*contact*/
+.backgraund-image{
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    min-height: 25rem;
+    background-attachment: fixed;
+}
           /*footer*/
 
-.footer-bg{
-    background-color: rgb(29, 28, 28);
+.bg-white{
+    background-color: rgb(202, 188, 110);
 }
 .justify-content-around{
     justify-content: space-around;
